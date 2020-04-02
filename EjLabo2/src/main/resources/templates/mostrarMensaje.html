@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://wwww.thymeleaf" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Datos de usuario</h1>
+
+    <p th:text="'Nombre: ' + ${usuario.nombre}"></p>
+    <p th:text="'Ocupacion: ' + ${usuario.ocupacion}"></p>
+    <a href="/agregarUsuario">Regresar</a>
+    
+</body>
+</html>
